@@ -1,0 +1,22 @@
+//padding
+
+@mixin section-padding($top , $bottom) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+
+}
+
+.section-padding {
+    @include section-padding(90px, 100px);
+}
+
+//card
+
+@mixin card-size($width , $height) {
+    width: $width;
+    height: $height;
+}
+
+.card-size {
+    @include card-size(30%, 400px);
+}
